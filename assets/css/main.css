@@ -1,0 +1,273 @@
+/***************************/
+/***************************/
+/****** 			 			 *******/
+/****     MAIN CSS     *****/
+/****** 			 			 *******/
+/***************************/
+/***************************/
+
+/****Imports****/
+
+@import url(fonts.css);
+@import url(font-awesome/css/font-awesome.css);
+@import url(1080.css);
+@import url(600.css);
+@import url(400.css);
+@import url(animate.css);
+@import url(syntaxhighlighter/shCoreEmacs.css);
+@import url(clock.css);
+@import url(calc.css);
+@import url(table.css);
+
+/****Body****/
+
+::selection{
+	background: rgba(214, 73, 55, 0.3);
+    text-shadow: none;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+	background-color: #fff;
+}
+
+body p, a, li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+}
+
+body p, li{
+	color: #505050;
+}
+
+body h1, h2, h3, h4, h5{
+	font-family: 'Roboto', sans-serif;
+}
+
+/****Header****/
+
+header{
+	background-color: #fff;
+	margin: 0px 0px 0px 0px;
+}
+
+header h1, a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	color: #666;
+	/* margin: 0px 0px 0px 0px;
+	padding-top: 15px;
+/*	width: 100px;
+	text-decoration: none; */
+}
+
+header a:hover{
+	color: #4A4A4A;
+}
+
+nav ol{
+	list-style: none;
+}
+
+
+nav a{
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	text-decoration: none;
+	font-size: 14pt;
+
+}
+
+nav a:hover{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	color: #4a4a4a;
+	/* color: rgba(214, 73, 55, 0.6); */
+}
+
+/* #current, #current a{
+	background-color: #d64937;
+	color: #333333;
+} */
+
+/* #rule{
+	border-top: 3px solid #d64937;
+	width: 100%;
+} */
+
+/****Main****/
+
+
+article h1{
+	font-size: 28pt;
+	color: #d64937;
+	margin: 0px;
+	padding: 10px 0px 0px 10px;
+}
+
+.main{
+	background-color: #f9f9f9;
+}
+
+.main p{
+	margin: 0px;
+	padding: 10px;
+}
+
+/* .main a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	color: #d64937;
+} */
+
+.main a:hover{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	color: rgba(214, 73, 55, 0.6);
+}
+
+
+
+/****FORMS****/
+
+/* .contact-form {
+	padding-left: 10px;
+
+}
+
+fieldset {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+   background-color: #333;
+   border:solid 1px #333;
+   color: #fefefe;
+   height: 28px;
+   padding-left:10px;
+   width: 200px;
+   border-radius: 3px;
+}
+
+#submit{
+   background-color: #d64937;
+   border:solid 0px #333;
+   color: #fefefe;
+   height: 40px;
+   padding-left:10px;
+   width: 80px;
+   border-radius: 3px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+textarea{
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
+	border:solid 1px #333;
+	color: #fefefe;
+	height: 90px;
+	padding-left:10px;
+	width: 260px;
+	border-radius: 3px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.field {
+	margin: 10px;
+}
+
+.required{
+	color: #8C0000;
+	display: inline-block;
+	padding-left: 3px;
+} */
+
+
+/****Footer****/
+
+
+#disqus_thread{
+	padding: 20px;
+}
+
+footer{
+	background-color: #333333;
+	border-top: 3px solid #d64937;
+}
+
+
+.footer-content h6{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #d64937;
+	font-size: 20pt;
+}
+
+.footer-content p{
+	font-family: 'Roboto', sans-serif;
+	color: #f9f9f9;
+}
+
+
+.footer-nav li{
+	list-style: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*padding-bottom: 5px;*/
+}
+
+.footer-nav a, a:visited{
+	padding-top: 0px;
+	font-size: 11pt;
+}
+
+.footer-nav a:hover{
+	color: #d64937;
+}
+
+.logo-large{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #d64937;
+	font-size: 60pt;
+	display: inline-block;
+	padding-left: 10px;
+
+}
+
+.logo-small{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #d64937;
+	font-size: 12pt;
+	display: inline-block;
+}
+
+#copyright p{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	text-align: center;
+	font-size: 8pt;
+	color: #dedede;
+}
+
+#copyright a{
+	margin-top: 0px;
+	font-size: 8pt;
+	text-decoration: underline;
+	color: #d64937;
+}
+
+
+/*IMAGES*/
+
+#htmlcssjs {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
